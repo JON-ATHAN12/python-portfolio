@@ -19,6 +19,7 @@ with col2:
     """
     st.info(content)
     st.link_button("GitHub", "https://github.com/dashboard")
+    st.link_button( "Contact", "http://localhost:8501/Contact_Me")
 
 st.divider()
 

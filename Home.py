@@ -37,7 +37,7 @@ with col3:
         st.header(row["title"], divider=True)
         st.write(row["description"])
         # st.image("static/img/" + row["image"])
-        st.button("Source Code", row['url'])
+        st.link_button("Source code", row["url"])
 
 
 with col4:
@@ -45,4 +45,4 @@ with col4:
         st.header(row["title"], divider=True)
         st.write(row["description"])
         # st.image("static/img/" + row["image"])
-        st.button("Source Code", row['url'])
+        st.link_button("Source code", row["url"])
